@@ -225,7 +225,7 @@ setupCrudRoutes("/scripts", filePaths.sda);
 setupCrudRoutes("/servidores", filePaths.servidores);
 setupCrudRoutes("/ramais", filePaths.ramais);
 setupCrudRoutes("/instrucoes", filePaths.instrucoes);
-setupCrudRoutes("/chamados", filePaths.chamados);
+setupCrudRoutes("/scripts-chamados", filePaths.chamados);
 setupCrudRoutes("/bookmarks", filePaths.bookmarks);
 setupCrudRoutes("/senhas", filePaths.senhas); // Configura rotas para senhas
 
