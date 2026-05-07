@@ -1,5 +1,5 @@
 [
-{
+  {
     "title": "Encerrar Validação de Recebimento",
     "content": "Olá!\n Somos da TI e informamos que seu equipamento [ID_EQUIPAMENTO] no chamado: [NUM_CHAMADO], está em processo de entrega através da NF: [NUM_NF] e sairá[DATA]. O equipamento foi enviado por:\n(  ) Correios\n( x ) Malotes\n(  ) Transportadora\n                        \n Desta forma, informamos que assim que chegar e for necessário envio de equipe no local para devida instalação ou configuração abrir chamado no [SISTEMA_CHAMADOS] em TI > Equipamentos > Instalação.\n                        \n Prazo de acordo com meio de envio:\n                        \n* Correios de 2 a 3 dias úteis\n* Transportadora  de 2 a 3 úteis\n* Malotes de 5 à 10 dias úteis\n                        \n *Lembrete:*\n                        \n                        \n Caso tenha algum equipamento de TI que precisa realizar a devolução e precisa de NF de devolução abrir chamado no [SISTEMA_CHAMADOS] em TI > Equipamentos > NF Devolução\n                        \n Desejamos um excelente dia de trabalho!\n                        \n Atenciosamente;\n Suporte Filiais"
   },
