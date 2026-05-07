@@ -1,5 +1,5 @@
 // URL da API para os scripts de chamados
-const API_URL = `/chamados`;
+const API_URL = `/scripts-chamados`;
 
 // Função para carregar os scripts de chamados
 async function loadScripts() {
