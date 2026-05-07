@@ -1,4 +1,4 @@
-const API_URL = `http://${window.location.hostname}:3000/senhas`;
+const API_URL = `/senhas`;
 
 // Função para carregar as senhas (sem a senha real)
 async function loadSenhas() {

@@ -1,4 +1,4 @@
-const API_URL = `http://${window.location.hostname}:3000/ramais`;
+const API_URL = `/ramais`;
 
 async function loadRamais() {
     try {

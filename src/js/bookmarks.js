@@ -1,5 +1,5 @@
 // Constante para a URL da API
-const API_URL = `http://${window.location.hostname}:3000/bookmarks`;
+const API_URL = `/bookmarks`;
 
 // Função para carregar os bookmarks do servidor
 async function loadBookmarks() {

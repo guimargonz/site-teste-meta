@@ -1,6 +1,6 @@
 // Arquivo: src/js/instrucoes.js
 
-const API_URL = `http://${window.location.hostname}:3000/instrucoes`;
+const API_URL = `/instrucoes`;
 
 async function loadInstrucoes() {
     try {

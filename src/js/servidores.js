@@ -1,4 +1,4 @@
-const SERVER_API_URL = `http://${window.location.hostname}:3000/servidores`;
+const SERVER_API_URL = `/servidores`;
 
 async function loadServidores() {
     try {

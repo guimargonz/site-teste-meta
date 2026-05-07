@@ -1,4 +1,4 @@
-const API_URL = `http://${window.location.hostname}:3000/scripts`;
+const API_URL = `/scripts`;
 
 async function loadScripts() {
     try {
