@@ -1,0 +1,96 @@
+[
+  {
+    "id": "[ID_METADATA_1]",
+    "title": "Login Putty",
+    "username": "[USUARIO_SUPORTE]",
+    "password": "[SENHA_SUPORTE]"
+  },
+  {
+    "id": "[ID_METADATA_2]",
+    "title": "Root Servidor",
+    "username": "sudo su",
+    "password": "[SENHA_ROOT]"
+  },
+  {
+    "id": "[ID_METADATA_3]",
+    "title": "Senha ROOT linux 1",
+    "password": "[SENHA_ROOT_1]"
+  },
+  {
+    "id": "[ID_METADATA_4]",
+    "title": "Senha ROOT linux 2",
+    "password": "[SENHA_ROOT_2]"
+  },
+  {
+    "id": "[ID_METADATA_5]",
+    "title": "Senha do Email das Filiais (subtituir *** por código da filial)",
+    "username": "[EMAIL_PADRAO_FILIAIS]",
+    "password": "[SENHA_EMAIL_PADRAO]"
+  },
+  {
+    "id": "[ID_METADATA_6]",
+    "title": "Login Montagem",
+    "username": "[USUARIO_MONTAGEM]",
+    "password": "[SENHA_MONTAGEM]"
+  },
+  {
+    "id": "[ID_METADATA_7]",
+    "title": "Portal da Drogaria UF_1: CNPJ:[CNPJ_1]",
+    "username": "[USUARIO_PORTAL_1]",
+    "password": "[SENHA_PORTAL_1]"
+  },
+  {
+    "id": "[ID_METADATA_8]",
+    "title": "Portal da Drogaria UF_2: CNPJ:[CNPJ_2]",
+    "username": "[USUARIO_PORTAL_2]",
+    "password": "[SENHA_PORTAL_2]"
+  },
+  {
+    "id": "[ID_METADATA_9]",
+    "title": "Portal da Drogaria UF_3: CNPJ: [CNPJ_3]",
+    "username": "[USUARIO_PORTAL_3]",
+    "password": "[SENHA_PORTAL_3]"
+  },
+  {
+    "title": "Senha Câmeras Admin (Incluir código da loja onde indicado) se for modelo antigo sem últimos 4 dígitos",
+    "username": "admin",
+    "password": "[PADRAO_SENHA_CAMERA_ADMIN]",
+    "id": "[ID_METADATA_10]"
+  },
+  {
+    "title": "Senha Câmeras Lojas (Incluir código da loja onde indicado) se for modelo antigo sem últimos 4 dígitos",
+    "username": "user",
+    "password": "[PADRAO_SENHA_CAMERA_USER]",
+    "id": "[ID_METADATA_11]"
+  },
+  {
+    "id": "[ID_METADATA_12]",
+    "title": "Senha de acesso[SISTEMA_CONVENIO]",
+    "username": "[USUARIO_CONVENIO]",
+    "password": "[SENHA_CONVENIO]"
+  },
+  {
+    "id": "[ID_METADATA_13]",
+    "title": "[FORNECEDOR_IMPRESSAO]",
+    "username": "admin",
+    "password": "[SENHA_IMPRESSORAS]"
+  },
+  {
+    "title": "Senhas Relógio ponto",
+    "username": "admin",
+    "password": "[SENHA_RELOGIO_PONTO]",
+    "id": "[ID_METADATA_14]"
+  },
+  {
+    "id": "[ID_METADATA_15]",
+    "title": "[SISTEMA_FISCAL]",
+    "username": "[EMAIL_SUPORTE_FISCAL]",
+    "password": "[SENHA_SISTEMA_FISCAL]"
+  },
+  {
+    "id": "[ID_METADATA_16]",
+    "title": "Impressoras cups",
+    "username": "[USUARIO_CUPS]",
+    "password": "[SENHA_CUPS]"
+  }
+]

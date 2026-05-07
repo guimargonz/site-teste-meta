@@ -1,0 +1,1002 @@
+[
+{
+    "title": "Central de Aplicações",
+    "status": {
+      "S": "Computador sem central de aplicações",
+      "D": "Necessário instalação do Central de aplicações",
+      "A": "Central de aplicações instalado no computador"
+    }
+  },
+  {
+    "title": "Impressora[MARCA_IMPRESSORA]",
+    "status": {
+      "S": "Problema com impressora",
+      "D": "Impressora de caixa não imprime",
+      "A": "Atualizado Estação e Impressora de caixa reconfigurada no POS"
+    }
+  },
+  {
+    "title": "Impressora [MARCA_IMPRESSORA]",
+    "status": {
+      "S": "Problema com impressora",
+      "D": "Impressora de caixa não imprime",
+      "A": "Reiniciada impressora e voltou a funcionar"
+    }
+  },
+  {
+    "title": "[SISTEMA_PBM]",
+    "status": {
+      "S": "Dúvida em venda[SISTEMA_PBM]",
+      "D": "Venda acompanhada",
+      "A": "Dúvidas sanadas e venda concluída"
+    }
+  },
+  {
+    "title": "Computador Lento",
+    "status": {
+      "S": "Computador com extrema lentidão",
+      "D": "Computador travado",
+      "A": "Realizado uma limpeza e otimização do equipamento"
+    }
+  },
+  {
+    "title": "Usuario AD (troca de senha)",
+    "status": {
+      "S": "Problema de acesso ao usuário",
+      "D": "Senha/usuário inválido",
+      "A": "Alterado no AD e auxiliado na troca de senha"
+    }
+  },
+  {
+    "title": "Usuario AD - usuário bloqueado",
+    "status": {
+      "S": "Problema de acesso ao usuário",
+      "D": "Usuário bloqueado",
+      "A": "Desbloqueado no AD"
+    }
+  },
+  {
+    "title": "Tablet sem Internet",
+    "status": {
+      "S": "Tablet sem acesso à internet",
+      "D": "Liberação de acesso",
+      "A": "Acesso Liberado"
+    }
+  },
+  {
+    "title": "Pacote Office",
+    "status": {
+      "S": "Office não está funcionando",
+      "D": "Reparado o pacote Office",
+      "A": "Normalizado"
+    }
+  },
+  {
+    "title": "Restart Docker",
+    "status": {
+      "S": "Descontos não aplicando",
+      "D": "Produto fora de alçada",
+      "A": "Restart no Docker realizado e sistema normalizado"
+    }
+  },
+  {
+    "title": "Pinpad",
+    "status": {
+      "S": "Pinpad não reconhecido na máquina",
+      "D": "Pinpad não passa o cartão ou aparece no computador",
+      "A": "Realizado a atualização na estação e troca de porta USB"
+    }
+  },
+  {
+    "title": "Impressoras",
+    "status": {
+      "S": "Configuração da impressora",
+      "D": "Apontava erro de impressora fora de conexão",
+      "A": "Configurado novamente a impressora"
+    }
+  },
+  {
+    "title": "Email Caixa Cheia",
+    "status": {
+      "S": "Caixa de email cheia",
+      "D": "Feito arquivo morto",
+      "A": "Liberado memória e orientado chamado para aumentar limite"
+    }
+  },
+  {
+    "title": "Senha do Email",
+    "status": {
+      "S": "Email Não funciona",
+      "D": "Credenciais solicitadas",
+      "A": "Credenciais providenciadas"
+    }
+  },
+  {
+    "title": "[SISTEMA_CHAMADOS] - LDPA",
+    "status": {
+      "S": "Erro LDPA",
+      "D": "Ajuste pelo[SISTEMA_CHAMADOS]",
+      "A": "Ajustado"
+    }
+  },
+  {
+    "title": "[SISTEMA_CHAMADOS]",
+    "status": {
+      "S": "[SISTEMA_CHAMADOS] não acessa",
+      "D": "Link do navegador estava desatualizado",
+      "A": "Link atualizado no navegador"
+    }
+  },
+  {
+    "title": "Atualização de Estação",
+    "status": {
+      "S": "Problema de acesso ao [SISTEMA_PDV]",
+      "D": "Requerente informou que[SISTEMA_PDV] não estava acessando",
+      "A": "Estação atualizada e sistema voltou a funcionar"
+    }
+  },
+  {
+    "title": "Backup de Retaguarda",
+    "status": {
+      "S": "Passar o backup da retaguarda para outro",
+      "D": "Solicitado a transferência de arquivos dos computadores",
+      "A": "Encaminhado de uma retaguarda a outra o backup"
+    }
+  },
+  {
+    "title": "[SISTEMA_CHAMADOS] Erros",
+    "status": {
+      "S": "[SISTEMA_CHAMADOS] não está acessando",
+      "D": "[SISTEMA_CHAMADOS] com lentidão para abrir",
+      "A": "Testado em outro navegador e limpado o cache"
+    }
+  },
+  {
+    "title": "[CARTAO_CONVENIO]",
+    "status": {
+      "S": "Dúvida sobre venda[CARTAO_CONVENIO]",
+      "D": "Venda acompanhada",
+      "A": "Filial orientada e venda finalizada"
+    }
+  },
+  {
+    "title": "Matrícula Caixa",
+    "status": {
+      "S": "Matrícula não abria o balcão",
+      "D": "Verificando no [SISTEMA_ERP] matrícula do requerente",
+      "A": "Solicitado para verificar com o coordenador"
+    }
+  },
+  {
+    "title": "Auxílio na Abertura de Chamado",
+    "status": {
+      "S": "Auxílio para abertura de chamado",
+      "D": "Solicitado auxílio para abertura de um chamado para TI",
+      "A": "Auxiliado e criado o chamado com o requerente"
+    }
+  },
+  {
+    "title": "Liberação do Pendrive",
+    "status": {
+      "S": "Liberação de pendrive",
+      "D": "Liberação do pendrive para transferências do arquivo de gravação do DVR",
+      "A": "Acesso liberado e arquivos transferidos"
+    }
+  },
+  {
+    "title": "Câmeras (senha bloqueada)",
+    "status": {
+      "S": "Senha bloqueada para acesso às câmeras",
+      "D": "Orientado a abrir chamado para verificação",
+      "A": "Informações repassadas"
+    }
+  },
+  {
+    "title": "Câmeras 2 (solicitação de senha)",
+    "status": {
+      "S": "Solicitação da senha",
+      "D": "Informado",
+      "A": "Acessado"
+    }
+  },
+  {
+    "title": "Câmeras 3",
+    "status": {
+      "S": "Solicitação de ajuste de visão de câmeras",
+      "D": "Verificado na máquina",
+      "A": "Câmeras de exibição alteradas"
+    }
+  },
+  {
+    "title": "Sistema com Intermitência",
+    "status": {
+      "S": "Desconto não aplicado",
+      "D": "Sistema com intermitência",
+      "A": "Informado que sistema de desconto está com instabilidade, solicitado aguardar a mensageria"
+    }
+  },
+  {
+    "title": "Restart Glassfish",
+    "status": {
+      "S": "Erro ao acessar sistema de vendas",
+      "D": "Erro Glassfish",
+      "A": "Restartado Glassfish e normalizado"
+    }
+  },
+  {
+    "title": "Sistema Fora",
+    "status": {
+      "S": "Ligação para retirada de dúvida",
+      "D": "Intermitência no Central de Aplicações",
+      "A": "Intermitência no Central de Aplicações e problema resolvido"
+    }
+  },
+  {
+    "title": "Firewall ativado",
+    "status": {
+      "S": "Computador não loga balcão nem vnc",
+      "D": "Firewall ativado",
+      "A": "Desativar Firewall"
+    }
+  },
+  {
+    "title": "Configuração de Rede",
+    "status": {
+      "S": "Problema de configuração de rede",
+      "D": "Acesso à rede",
+      "A": "Configurada a rede"
+    }
+  },
+  {
+    "title": "Instalação",
+    "status": {
+      "S": "Instalação de novo sistema",
+      "D": "Sistema instalado",
+      "A": "Sistema instalado e configurado"
+    }
+  },
+  {
+    "title": "Backup Diário",
+    "status": {
+      "S": "Backup diário não realizado",
+      "D": "Backup realizado com sucesso",
+      "A": "Backup diário realizado e concluído"
+    }
+  },
+  {
+    "title": "Desconexão VPN",
+    "status": {
+      "S": "VPN desconectada",
+      "D": "Problema de conexão VPN",
+      "A": "Conexão VPN restaurada"
+    }
+  },
+  {
+    "title": "Configuração de Impressora",
+    "status": {
+      "S": "Impressora sem configuração",
+      "D": "Configuração realizada com sucesso",
+      "A": "Impressora configurada"
+    }
+  },
+  {
+    "title": "Velocidade da Internet",
+    "status": {
+      "S": "Internet lenta",
+      "D": "Conexão verificada e ajustada",
+      "A": "Velocidade da internet normalizada"
+    }
+  },
+  {
+    "title": "Problemas com a Base de Dados",
+    "status": {
+      "S": "Problema com base de dados",
+      "D": "Verificação e ajuste realizados",
+      "A": "Problema solucionado e base de dados restaurada"
+    }
+  },
+  {
+    "title": "Software Desatualizado",
+    "status": {
+      "S": "Software desatualizado",
+      "D": "Atualização realizada",
+      "A": "Software atualizado e funcionando"
+    }
+  },
+  {
+    "title": "WA [SISTEMA_ERP]",
+    "status": {
+      "S": "Erro ao acessar [SISTEMA_ERP]",
+      "D": "Parâmetros inválidos",
+      "A": "Ajustado e normalizado"
+    }
+  },
+  {
+    "title": "Servidor Offline",
+    "status": {
+      "S": "Loja sem rede",
+      "D": "Servidor Offline",
+      "A": "Reiniciar Servidor"
+    }
+  },
+  {
+    "title": "Ligações Indevidas -[SETOR_EMPRESA_1]",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com [SETOR_EMPRESA_1]",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_1]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Financeiro",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Financeiro",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_2]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Fiscal",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Fiscal",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_3]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - RH",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com RH",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_4]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Suporte Farmaceutico",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Farmacêuticos",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_5]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Comercial",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Comercial",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_6]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Obras",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Obras",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_7]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Logística",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Logística",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_8]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Departamento Pessoal",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Departamento Pessoal",
+      "A": "Encaminhado para ramal[RAMAL_SETOR_9]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Farmácia Popular",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Farmácia Popular",
+      "A": "Encaminhado para ramal[RAMAL_SETOR_10]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - e-Commerce",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com e-Commerce",
+      "A": "Encaminhado para ramal [RAMAL_SETOR_11]"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Auditoria",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com Auditoria",
+      "A": "Encaminhado para entrar em contato com auditor da região"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Pricing",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Problemas com desconto",
+      "A": "Encaminhado para entrar em contato com o pricing"
+    }
+  },
+  {
+    "title": "Ligação para Verificação de Chamado",
+    "status": {
+      "S": "Ligação para verificação de chamado",
+      "D": "Requerente querendo saber como está o chamado atualmente",
+      "A": "Informado a situação e encaminhado no grupo de ocorrências"
+    }
+  },
+  {
+    "title": "Ligações Indevidas - Erro Não Apresentado",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "Erro não apresentado",
+      "A": "Chamado Encerrado"
+    }
+  },
+  {
+    "title": "Ligação Muda",
+    "status": {
+      "S": "Ligação muda",
+      "D": "",
+      "A": ""
+    }
+  },
+  {
+    "title": "Dúvida",
+    "status": {
+      "S": "Dúvida sobre...",
+      "D": "Informação Repassada",
+      "A": "Orientado"
+    }
+  },
+  {
+    "title": "Indevida - Ramal Padrão",
+    "status": {
+      "S": "ligação indevida",
+      "D": "ligou para setor errado  ",
+      "A": "solicitado ligar novamente na opção correta"
+    }
+  },
+  {
+    "title": "Indevida - Ramal",
+    "status": {
+      "S": "ligação indevida",
+      "D": "ligou para setor errado  ",
+      "A": "informado ramal do setor"
+    }
+  },
+  {
+    "title": "Indevida - Transferência",
+    "status": {
+      "S": "ligação indevida",
+      "D": "ligou para setor errado  ",
+      "A": "transferido ramal setor"
+    }
+  },
+  {
+    "title": "Autorização de cheque",
+    "status": {
+      "S": "duvida ao realizar autorização de cheque",
+      "D": "informado ",
+      "A": "auxiliado a realizar autorização"
+    }
+  },
+  {
+    "title": "Abertura de parâmetro",
+    "status": {
+      "S": " lançamento de cheque [NOME_ENTIDADE]",
+      "D": " aberto parâmetro e lançado cheque",
+      "A": " auxiliado"
+    }
+  },
+  {
+    "title": "Acesso [SISTEMA_CHEQUE]",
+    "status": {
+      "S": "Duvida sobre acesso [SISTEMA_CHEQUE]",
+      "D": "Informado login e senha",
+      "A": "Orientado"
+    }
+  },
+  {
+    "title": "Código do supervisor - máquina tef pos ",
+    "status": {
+      "S": "duvida sobre código do supervisor",
+      "D": "informado código",
+      "A": "orientado"
+    }
+  },
+  {
+    "title": "Cartão aceito na rede",
+    "status": {
+      "S": "duvida sobre aceite de cartão",
+      "D": "orientado ",
+      "A": "informado aceite na rede"
+    }
+  },
+  {
+    "title": "Devolução de valor para cliente",
+    "status": {
+      "S": "duvida referente devolução de valor para cliente",
+      "D": "orientado  ",
+      "A": " informado processo correto de devolução"
+    }
+  },
+  {
+    "title": "Troca com mais de 30 dias",
+    "status": {
+      "S": " troca com mais de 30 dias",
+      "D": " passado ramal do setor",
+      "A": " orientado"
+    }
+  },
+  {
+    "title": "Cartão invalido",
+    "status": {
+      "S": " cartão invalido",
+      "D": " e-mail para setor de cartões",
+      "A": " orientado"
+    }
+  },
+  {
+    "title": "Troca de máquina de tele",
+    "status": {
+      "S": "troca de máquina de tele",
+      "D": "chamado[SISTEMA_CHAMADOS]",
+      "A": " orientado"
+    }
+  },
+  {
+    "title": "Consultar transação",
+    "status": {
+      "S": "consultar transação",
+      "D": "orientado sobre status",
+      "A": "orientado sobre processo"
+    }
+  },
+  {
+    "title": "Consulta de estorno",
+    "status": {
+      "S": "consulta de estorno",
+      "D": "orientado sobre status",
+      "A": "orientado sobre processo "
+    }
+  },
+  {
+    "title": "Consultar transação pix cnpj",
+    "status": {
+      "S": "consultar transação pix cnpj",
+      "D": "orientado  ",
+      "A": "informado status"
+    }
+  },
+  {
+    "title": "Consultar transação pendente - cancelada",
+    "status": {
+      "S": "consultar transação",
+      "D": "transação cancelada pois cupom estava nos cancelados",
+      "A": "orientado sobre status pendente"
+    }
+  },
+  {
+    "title": "Consultar transação pendente - aprovada",
+    "status": {
+      "S": " consultar transação",
+      "D": "transação confirmada por se tratar de valor alto, orientações enviadas por e-mail",
+      "A": " orientado sobre status pendente"
+    }
+  },
+  {
+    "title": "Consultar recarga",
+    "status": {
+      "S": "consultar recarga",
+      "D": "orientado sobre processo",
+      "A": "orientado sobre status"
+    }
+  },
+  {
+    "title": "Envio de termo",
+    "status": {
+      "S": "não estornou valor para cliente",
+      "D": " enviado termo via email",
+      "A": " solicitado envio de extrato"
+    }
+  },
+  {
+    "title": "Transferência de caixa",
+    "status": {
+      "S": "duvida ao realizar transferência",
+      "D": "informado processo correto",
+      "A": " orientado"
+    }
+  },
+  {
+    "title": "Transferência errada",
+    "status": {
+      "S": "erro ao realizar transferência",
+      "D": "orientado ",
+      "A": "justificar por e-mail"
+    }
+  },
+  {
+    "title": "Encerramento com senha gestor",
+    "status": {
+      "S": "encerramento de caixa",
+      "D": "orientado ",
+      "A": "caixa encerrado por gestor"
+    }
+  },
+  {
+    "title": "Encerramento com devolução",
+    "status": {
+      "S": "encerramento de caixa com devolução",
+      "D": "informado processo, caixa encerrado ",
+      "A": "orientado"
+    }
+  },
+  {
+    "title": "Caixa encerrado script",
+    "status": {
+      "S": "encerramento de caixa",
+      "D": "caixa encerrado script",
+      "A": "erro na vinculação"
+    }
+  },
+  {
+    "title": "Encerramento com TR pendente",
+    "status": {
+      "S": "encerramento de caixa",
+      "D": "caixa encerrado script",
+      "A": "tr pendente e gestor de ferias"
+    }
+  },
+  {
+    "title": "Encerramento tempo limite",
+    "status": {
+      "S": "encerramento de caixa",
+      "D": "caixa encerrado script",
+      "A": "turno aberto com mais de 72h"
+    }
+  },
+  {
+    "title": "Produto sem vinculo",
+    "status": {
+      "S": "produto sem vinculo",
+      "D": "orientado ",
+      "A": "chamado[SISTEMA_CHAMADOS]"
+    }
+  },
+  {
+    "title": "Erro envio sefaz",
+    "status": {
+      "S": "erro envio sefaz",
+      "D": "ajustado script",
+      "A": "orientado"
+    }
+  },
+  {
+    "title": "Erro envio nota fiscal",
+    "status": {
+      "S": "erro envio nota fiscal",
+      "D": "ajustado inscrição estadual",
+      "A": "orientado"
+    }
+  },
+  {
+    "title": "Notas em trânsito",
+    "status": {
+      "S": "notas fiscais transito trancadas",
+      "D": "passado e-mail do setor",
+      "A": "orientado"
+    }
+  },
+  {
+    "title": "Conferência de controlado",
+    "status": {
+      "S": "duvida para realizar conferência de controlado",
+      "D": "orientado ",
+      "A": "auxiliado a realizar conferência"
+    }
+  },
+  {
+    "title": "Devolução com fornecedor",
+    "status": {
+      "S": "duvida sobre processo de devolução com fornecedor",
+      "D": "orientado ",
+      "A": "informado processo"
+    }
+  },
+  {
+    "title": "Estorno de nf",
+    "status": {
+      "S": "estorno de nf",
+      "D": "orientado",
+      "A": " chamado [SISTEMA_CHAMADOS]"
+    }
+  },
+  {
+    "title": "Nota fiscal pendente de envio",
+    "status": {
+      "S": "nota fiscal pendente de envio",
+      "D": "auxiliado ",
+      "A": "ajustado dados e enviada sefaz"
+    }
+  },
+  {
+    "title": "Notas fiscais no contas a pagar",
+    "status": {
+      "S": "duvida sobre notas fiscais no contas a pagar",
+      "D": "orientado ",
+      "A": "e-mail[EMAIL_SETOR]"
+    }
+  },
+  {
+    "title": "Notas fiscais no contas a pagar - boleto",
+    "status": {
+      "S": "duvida sobre notas fiscais no contas a pagar",
+      "D": "orientado ",
+      "A": "auxiliado a emitir boleto"
+    }
+  },
+  {
+    "title": "Envio de nf",
+    "status": {
+      "S": "envio de nf",
+      "D": "enviado e-mail com a nota para filial",
+      "A": "auxiliado"
+    }
+  },
+  {
+    "title": "Emissão de nota central de aplicações",
+    "status": {
+      "S": "duvida sobre emissão de nota ",
+      "D": "orientado ",
+      "A": "informado procedimento correto"
+    }
+  },
+  {
+    "title": "Erro central de aplicações - email",
+    "status": {
+      "S": "duvida sobre erro na central de aplicações ",
+      "D": "orientado",
+      "A": "email[EMAIL_SETOR]"
+    }
+  },
+  {
+    "title": "Erro central de aplicações - chamado",
+    "status": {
+      "S": "duvida sobre erro na central de aplicações ",
+      "D": "orientado",
+      "A": "chamado [SISTEMA_CHAMADOS]"
+    }
+  },
+  {
+    "title": "[NOME_CARTAO_PROPRIO] - Analistas",
+    "status": {
+      "S": "duvida sobre cadastro",
+      "D": "orientada",
+      "A": "transferida as analistas"
+    }
+  },
+  {
+    "title": "[NOME_CARTAO_PROPRIO] - Mesa de Ocorrencia",
+    "status": {
+      "S": "cadastro em mesa de ocorrência",
+      "D": "status verificado",
+      "A": "realizado processo e orientado"
+    }
+  },
+  {
+    "title": "[NOME_CARTAO_PROPRIO] - Credenciais de acesso",
+    "status": {
+      "S": "credenciais acesso[NOME_CARTAO_PROPRIO]",
+      "D": "loja sem conseguir realizar o acesso",
+      "A": "orientada e acompanhada na troca de senha"
+    }
+  },
+  {
+    "title": "[NOME_CARTAO_PROPRIO] - Limite Zerado",
+    "status": {
+      "S": "limite zerado",
+      "D": "realizado painel motor credito ",
+      "A": "orientada sobre novo status e limite"
+    }
+  },
+  {
+    "title": "[NOME_CARTAO_PROPRIO] - Aumento de limite",
+    "status": {
+      "S": "solicitado aumento de limite",
+      "D": "realizado painel motor credito",
+      "A": "orientada sobre novo status e limite"
+    }
+  },
+  {
+    "title": "[NOME_CARTAO_PROPRIO] - Renegociar divida",
+    "status": {
+      "S": "renegociar divida",
+      "D": "orientado sobre ser apenas em horário comercial",
+      "A": "informado"
+    }
+  },
+  {
+    "title": "[NOME_CARTAO_PROPRIO] - Identidade nova",
+    "status": {
+      "S": "cliente com identidade nova",
+      "D": "auxiliado",
+      "A": "realizado cadastro de identidade"
+    }
+  },
+  {
+    "title": "Cadastro de convênio",
+    "status": {
+      "S": "duvida sobre cadastro convenio",
+      "D": "informado  ",
+      "A": "orientado a encaminhar email"
+    }
+  },
+  {
+    "title": "Bloqueio de convenio",
+    "status": {
+      "S": "duvida sobre cadastro de cliente",
+      "D": "orientado ",
+      "A": "informado sobre bloqueio"
+    }
+  },
+  {
+    "title": "Replicação de convenio",
+    "status": {
+      "S": "duvida sobre cadastro de cliente não puxar",
+      "D": "orientado ",
+      "A": "convenio replicado e venda realizada com sucesso"
+    }
+  },
+  {
+    "title": "Cancelamento de convenio com desconto em folha",
+    "status": {
+      "S": "duvida referente cancelamento de convenio com desconto em folha",
+      "D": "orientado",
+      "A": "e-mail [EMAIL_SETOR] e passado ramal"
+    }
+  },
+  {
+    "title": "Cadastro de convenio",
+    "status": {
+      "S": "duvida sobre cadastro de cliente",
+      "D": "orientado ",
+      "A": "cliente não possui cadastro de convenio"
+    }
+  },
+  {
+    "title": "Finalização de convenio",
+    "status": {
+      "S": "duvida sobre finalização de convenio",
+      "D": "orientado",
+      "A": "informado processo de finalização"
+    }
+  },
+  {
+    "title": "Estorno de convenio[SISTEMA_CONVENIO]",
+    "status": {
+      "S": "estorno[SISTEMA_CONVENIO]",
+      "D": "auxiliado",
+      "A": "estorno realizado"
+    }
+  },
+  {
+    "title": "Aumento de limite convenio[SISTEMA_CONVENIO]",
+    "status": {
+      "S": "duvida sobre aumento de limite[SISTEMA_CONVENIO] com autorização",
+      "D": "auxiliado",
+      "A": "aumento de limite realizado com sucesso"
+    }
+  },
+  {
+    "title": "Acesso [SISTEMA_FORMULARIOS]",
+    "status": {
+      "S": "duvida referente acesso [SISTEMA_FORMULARIOS]",
+      "D": "informado",
+      "A": "orientado login e senha"
+    }
+  },
+  {
+    "title": "Duplicidade no Cupom",
+    "status": {
+      "S": "Erro Vermelho \t \t",
+      "D": "Duplicidade nota fiscal",
+      "A": "Encaminhado para N2"
+    }
+  },
+  {
+    "title": "Ligação indevida - Hotline (SAP)",
+    "status": {
+      "S": "Ligação indevida",
+      "D": "SAP",
+      "A": "Encaminhado para Hotline"
+    }
+  },
+  {
+    "title": "Liberação de porta USB",
+    "status": {
+      "S": "Solicitado liberação de porta USB",
+      "D": "Solicitar para Cyber",
+      "A": "Ajustado"
+    }
+  },
+  {
+    "title": "IP Duplicado",
+    "status": {
+      "S": "Computador com IP duplicado",
+      "D": "Alteração realizada e ajustado POS",
+      "A": "Ajustado"
+    }
+  },
+  {
+    "title": "Problemas com F8",
+    "status": {
+      "S": "Não puxa Cadastro do Cliente",
+      "D": "Problema com atalho",
+      "A": "Orientado"
+    }
+  },
+  {
+    "title": "Usuario SAP (troca de senha)",
+    "status": {
+      "S": "Problema de acesso ao usuário SAP",
+      "D": "Senha/usuário inválido",
+      "A": "Alterado no User Maintenance"
+    }
+  },
+  {
+    "title": "Ordem de Depósito (SAP)",
+    "status": {
+      "S": "Problemas com Ordem de deposito",
+      "D": "Corrigir Ordem no EWM",
+      "A": "Ajustado"
+    }
+  },
+  {
+    "title": "Erro na Fila de mensagens SAP",
+    "status": {
+      "S": "Erro na Fila de mensagens",
+      "D": "Gravar LUW no EWM",
+      "A": "Ajustado"
+    }
+  },
+  {
+    "title": "Organização de rack - Desligar Servidor",
+    "status": {
+      "S": "Tecnico em loja",
+      "D": "Organização de Rack",
+      "A": "Desligar Servidor"
+    }
+  },
+  {
+    "title": "Troca de Servidor (Virtualizado)",
+    "status": {
+      "S": "Troca de servidor",
+      "D": "Servidor Virtualizado",
+      "A": "Realizadas vendas teste e Recadastrado Farmácia Popular"
+    }
+  },
+  {
+    "title": "Troca de servidor",
+    "status": {
+      "S": "Troca de servidor",
+      "D": "Executar Scripts da troca",
+      "A": "Realizadas vendas teste e Recadastrado Farmácia Popular"
+    }
+  },
+  {
+    "title": "Problema com notas do SAP",
+    "status": {
+      "S": "Nota com erro",
+      "D": "Reenviar nota para Sefaz",
+      "A": "Ajustado"
+    }
+  }
+]

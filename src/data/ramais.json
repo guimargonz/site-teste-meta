@@ -1,0 +1,116 @@
+[
+{
+    "nome": "Hotline",
+    "numero": "[TELEFONE_HOTLINE_1] /[TELEFONE_HOTLINE_2]",
+    "departamento": "SAP",
+    "info": "📞 Hotline:[TELEFONE_HOTLINE_GERAL] (Operando novamente)\n📞 Callback (somente para ligações de celular): [TELEFONE_CALLBACK]\n📞 Ramal: [RAMAL_HOTLINE]"
+  },
+  {
+    "nome": "PGS (Relógio Ponto)",
+    "numero": "Dias de semana:[TELEFONE_PONTO_1] | [TELEFONE_PONTO_2]",
+    "departamento": "Relógio ponto",
+    "info": "Finais de semana: [TELEFONE_PONTO_FDS_1] |[TELEFONE_PONTO_FDS_2]"
+  },
+  {
+    "nome": "Pricing",
+    "numero": "[TELEFONE_PRICING]",
+    "departamento": "Pricing",
+    "info": "Plantão: [TELEFONE_PLANTAO_PRICING]"
+  },
+  {
+    "nome": "[NOME_COLABORADOR_1]",
+    "numero": "[TELEFONE_COLABORADOR_1]",
+    "departamento": "E-commerce",
+    "info": ""
+  },
+  {
+    "nome": "[NOME_COLABORADOR_2]",
+    "numero": "[TELEFONE_COLABORADOR_2]",
+    "departamento": "E-commerce",
+    "info": ""
+  },
+  {
+    "nome": "[NOME_COLABORADOR_3]",
+    "numero": "[TELEFONE_COLABORADOR_3]",
+    "departamento": "Prevenção de Perdas",
+    "info": ""
+  },
+  {
+    "nome": "CD [NOME_CIDADE]",
+    "numero": "[RAMAL_CD_1] /[RAMAL_CD_2]",
+    "departamento": "CD",
+    "info": "Celular: [TELEFONE_CELULAR_CD]"
+  },
+  {
+    "nome": "[NOME_CARTAO_PROPRIO] / Crédito Fácil",
+    "numero": "[RAMAL_CARTAO]",
+    "departamento": "[NOME_CARTAO_PROPRIO]",
+    "info": "Cliente: [TELEFONE_0800_CARTAO]"
+  },
+  {
+    "nome": "[NOME_COLABORADOR_4]",
+    "numero": "[TELEFONE_COLABORADOR_4]",
+    "departamento": "Suporte Farmacêutico",
+    "info": ""
+  },
+  {
+    "nome": "Ouvidoria",
+    "numero": "[TELEFONE_0800_OUVIDORIA]",
+    "departamento": "Ouvidoria",
+    "info": ""
+  },
+  {
+    "nome": "Portal da Drogaria",
+    "numero": "[TELEFONE_0800_PORTAL]",
+    "departamento": "Portal da Drogaria",
+    "info": ""
+  },
+  {
+    "nome": "Falta de Volumes Caminhão",
+    "numero": "[RAMAL_VOLUMES]",
+    "departamento": "CD",
+    "info": ""
+  },
+  {
+    "nome": "Duplicatas",
+    "numero": "[RAMAL_DUPLICATAS]",
+    "departamento": "Duplicatas",
+    "info": ""
+  },
+  {
+    "nome": "Alvarás",
+    "numero": "[RAMAL_ALVARA_1] /[RAMAL_ALVARA_2] / [RAMAL_ALVARA_3] /[RAMAL_ALVARA_4]",
+    "departamento": "Alvarás",
+    "info": ""
+  },
+  {
+    "nome": "Banco [NOME_BANCO]",
+    "numero": "[TELEFONE_0800_BANCO]",
+    "departamento": "Banco [NOME_BANCO]",
+    "info": ""
+  },
+  {
+    "nome": "TI",
+    "numero": "[TELEFONE_TI_1] / [TELEFONE_TI_2]",
+    "departamento": "Helpdesk",
+    "info": "ligar esperar informar e aguardar retorno"
+  },
+  {
+    "nome": "Hardware",
+    "numero": "[RAMAL_HARDWARE]",
+    "departamento": "TI",
+    "info": ""
+  },
+  {
+    "nome": "[FORNECEDOR_TEF]",
+    "numero": "[TELEFONE_FORNECEDOR_1]/[TELEFONE_FORNECEDOR_2]",
+    "departamento": "Canais Suporte SaaS:",
+    "info": "Abrir ocorrências para [FORNECEDOR_TEF]"
+  },
+  {
+    "nome": "[NOME_COLABORADOR_5]",
+    "numero": "[TELEFONE_COLABORADOR_5]",
+    "departamento": "Infraestrutura/redes",
+    "info": "contato para operadoras sobre Links de internet"
+  }
+]

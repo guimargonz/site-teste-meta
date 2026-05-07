@@ -1,0 +1,22 @@
+[
+{
+    "title": "Troca de Servidor - Primeira Parte",
+    "info": "Fechar Todos os Caixas Primeiro\n\nTécnico: Conectar o HD\n\nLogar no Putty\n\nUsuário:[USUARIO_SUPORTE]\n\nLogar com Root:\n\nsudo su\nsenha:[SENHA_ROOT]\nfdisk -l\n\nmount /dev/**** /mnt\n\n[CAMINHO_SCRIPT_REDE]/[NOME_SCRIPT_1].sh\n                \nDigite o seu Nome: exemplo\n\nVerificar Espaço do Disco: Digitar S / N e pressionar Enter. Aguardar mensagem de finalização.\n\nOrientar o técnico a fazer a troca e conectar o HD. Pingar o servidor. Caso não consiga pingar, trocar o cabo de rede para outra porta.\n\nObservação: Se for [MARCA_SERVIDOR], após a troca de servidor, conectar o cabo de rede na PORTA (GB2). Enviar evidências da porta no FIELD.\n\nObservação: Caso já exista um servidor criado, dar o comando sudo rm[CAMINHO_BANCO_DADOS_REDE]/[ARQUIVO_BANCO].GDB."
+  },
+  {
+    "title": "Troca de Servidor - Segunda Parte",
+    "info": "usuário:[USUARIO_SUPORTE] \nsenha:  [SENHA_SUPORTE]\n                    \nsudo su\nsenha:  [SENHA_ROOT]\n\nfdisk -l\n\nmount /dev/**** /mnt\n\ncd /mnt\n\nll -thr\n\n--- Caso o nome esteja diferente ---\nmv [PREFIXO_LOJA]-[NOME_LOJA_ANTIGA][PREFIXO_LOJA]-[NOME_LOJA_NOVA]\n\ncd\n\n[CAMINHO_SCRIPT_REDE]/[NOME_SCRIPT_2].sh\n\n--- Digitar o nome ---\n                \n"
+  },
+  {
+    "title": "Reiniciar Dockers / Glassfish",
+    "info": "[CAMINHO_SCRIPT_REDE]/./[SCRIPT_SERVICOS]_(usar TAB para selecionar o serviço a ser reiniciado)"
+  },
+  {
+    "title": "Desligar Servidor",
+    "info": "[CAMINHO_SCRIPT_REDE]/./[SCRIPT_DESLIGAMENTO].sh\n"
+  },
+  {
+    "title": "Salvar e Reiniciar Servidor",
+    "info": "[CAMINHO_SCRIPT_REDE]/[SCRIPT_REINICIO].sh xxx (código da loja)"
+  }
+]

@@ -1,0 +1,344 @@
+[
+  {
+    "id": "[ID_METADATA_1]",
+    "title": "[SISTEMA_CHAMADOS] Web",
+    "url": "[URL_SISTEMA_CHAMADOS]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_2]",
+    "title": "Busca Médicos (CRM)",
+    "url": "[URL_BUSCA_MEDICOS]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_3]",
+    "title": "Captura",
+    "url": "[URL_SISTEMA_CAPTURA]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_4]",
+    "title": "Portal da Drogaria",
+    "url": "[URL_PORTAL_DROGARIA]",
+    "category": "PBM's"
+  },
+  {
+    "id": "[ID_METADATA_5]",
+    "title": "[SISTEMA_PBM_1]",
+    "url": "[URL_SISTEMA_PBM_1]",
+    "category": "PBM's"
+  },
+  {
+    "id": "[ID_METADATA_6]",
+    "title": "Contato [SISTEMA_PBM_2]",
+    "url": "[URL_CONTATO_PBM_2]",
+    "category": "Contato PBM's"
+  },
+  {
+    "id": "[ID_METADATA_7]",
+    "title": "Mensageria",
+    "url": "[URL_SISTEMA_MENSAGERIA]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_8]",
+    "title": "Clinicarx",
+    "url": "[URL_SISTEMA_CLINICA]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_9]",
+    "title": "Sistema de Malotes",
+    "url": "[URL_SISTEMA_MALOTES]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_10]",
+    "title": "Sistema de Uniformes",
+    "url": "[URL_SISTEMA_UNIFORMES]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_11]",
+    "title": "[SISTEMA_CONVENIO]",
+    "url": "[URL_SISTEMA_CONVENIO]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_12]",
+    "title": "[SISTEMA_TREINAMENTO]",
+    "url": "[URL_SISTEMA_TREINAMENTO]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_13]",
+    "title": "[NOME_CARTAO_PROPRIO]",
+    "url": "[URL_CARTAO_PROPRIO]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_14]",
+    "title": "Receita Digital",
+    "url": "[URL_RECEITA_DIGITAL]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_15]",
+    "title": "Comunicação Interna",
+    "url": "[URL_COMUNICACAO_INTERNA]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_16]",
+    "title": "Performance Dashboard",
+    "url": "[URL_PERFORMANCE_DASHBOARD]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_17]",
+    "title": "Site Mercado",
+    "url": "[URL_SITE_MERCADO]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_18]",
+    "title": "Portal Delivery",
+    "url": "[URL_PORTAL_DELIVERY]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_19]",
+    "title": "Intranet",
+    "url": "[URL_INTRANET_EMPRESA]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_20]",
+    "title": "[SISTEMA_ERP]",
+    "url": "[URL_SISTEMA_ERP]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_21]",
+    "title": "Logística Entregas",
+    "url": "[URL_LOGISTICA_ENTREGAS]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_22]",
+    "title": "Plataforma Prescrição",
+    "url": "[URL_PLATAFORMA_PRESCRICAO]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_23]",
+    "title": "Conselho Regional",
+    "url": "[URL_CONSELHO_REGIONAL]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_24]",
+    "title": "Cadastro Farmácia Popular",
+    "url": "[URL_FARMACIA_POPULAR]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_25]",
+    "title": "Autorizador[SISTEMA_PBM_3]",
+    "url": "[URL_AUTORIZADOR_PBM_3]",
+    "category": "PBM's"
+  },
+  {
+    "id": "[ID_METADATA_26]",
+    "title": "[PROGRAMA_PBM_1]",
+    "url": "[URL_PROGRAMA_PBM_1]",
+    "category": "PBM's"
+  },
+  {
+    "id": "[ID_METADATA_27]",
+    "title": "Programa Primeira Dose",
+    "url": "[URL_PROGRAMA_PBM_2]",
+    "category": "PBM's"
+  },
+  {
+    "id": "[ID_METADATA_28]",
+    "title": "Contato [SISTEMA_PBM_1]",
+    "url": "[URL_CONTATO_PBM_1]",
+    "category": "Contato PBM's"
+  },
+  {
+    "id": "[ID_METADATA_29]",
+    "title": "Contato [SISTEMA_PBM_3]",
+    "url": "[URL_CONTATO_PBM_3]",
+    "category": "Contato PBM's"
+  },
+  {
+    "id": "[ID_METADATA_30]",
+    "title": "Gestão de Acessos Tablets",
+    "url": "[URL_GESTAO_TABLETS]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_31]",
+    "title": "Monitoramento Grafana",
+    "url": "[URL_MONITORAMENTO_GRAFANA]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_32]",
+    "title": "Instalar Impressora Linux",
+    "url": "[URL_WIKI_IMPRESSORAS]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_33]",
+    "title": "Painel Scripts",
+    "url": "[URL_PAINEL_SCRIPTS]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_34]",
+    "title": "[FORNECEDOR_TEF]",
+    "url": "[URL_SISTEMA_TEF]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_35]",
+    "title": "Consulta Chamados",
+    "url": "[URL_CONSULTA_CHAMADOS]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_36]",
+    "title": "Sistema Supply",
+    "url": "[URL_SISTEMA_SUPPLY]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_37]",
+    "title": "Busca CRO",
+    "url": "[URL_BUSCA_CRO]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_38]",
+    "title": "Setor De Compras (Central de Pedidos)",
+    "url": "[URL_SISTEMA_COMPRAS]",
+    "category": "Outros Links"
+  },
+  {
+    "id": "[ID_METADATA_39]",
+    "title": "Portal Treinamentos DNA",
+    "url": "[URL_PORTAL_TREINAMENTOS]",
+    "category": "Links Filiais"
+  },
+  {
+    "id": "[ID_METADATA_40]",
+    "title": "Portal Nota Fiscal Eletrônica",
+    "url": "[URL_PORTAL_NFE]",
+    "category": "Outros Links"
+  },
+  {
+    "id": "[ID_METADATA_41]",
+    "title": "BI Dashboard",
+    "url": "[URL_SISTEMA_BI]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_42]",
+    "title": "[SISTEMA_FISCAL]",
+    "url": "[URL_SISTEMA_FISCAL]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_43]",
+    "title": "Monitoramento Rede",
+    "url": "[URL_MONITORAMENTO_REDE]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_44]",
+    "title": "Ticket Suporte SAP",
+    "url": "[URL_TICKET_SAP]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_45]",
+    "title": "Monitor Lote NF-e SAP",
+    "url": "[URL_MONITOR_SAP_LOTE]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_46]",
+    "title": "Troca de Senha SAP",
+    "url": "[URL_TROCA_SENHA_SAP]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_47]",
+    "title": "Busca Lojas (Consulta)",
+    "url": "[URL_BUSCA_LOJAS]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_48]",
+    "title": "Verificar matrícula",
+    "url": "[URL_VERIFICA_MATRICULA]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_49]",
+    "title": "Gerenciamento Equipamentos Rede",
+    "url": "[URL_GERENCIAMENTO_REDE]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_50]",
+    "title": "Abrir Chamado Telefonia",
+    "url": "[URL_CHAMADO_TELEFONIA]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_51]",
+    "title": "Painel de Filas (Telefonia)",
+    "url": "[URL_PAINEL_FILAS]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_52]",
+    "title": "Abrir Chamados Trade",
+    "url": "[URL_CHAMADOS_TRADE]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_53]",
+    "title": "Monitor NF-e SAP (Chave de acesso)",
+    "url": "[URL_MONITOR_SAP_NFE]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_54]",
+    "title": "Jump Server",
+    "url": "[URL_JUMP_SERVER]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_55]",
+    "title": "Impressoras CUPS",
+    "url": "[URL_IMPRESSORAS_CUPS]",
+    "category": "Outros Links"
+  },
+  {
+    "id": "[ID_METADATA_56]",
+    "title": "Consultar disponibilidade de NF",
+    "url": "[URL_DISPONIBILIDADE_NF]",
+    "category": "Links HELP"
+  },
+  {
+    "id": "[ID_METADATA_57]",
+    "title": "Gerenciamento de Emails",
+    "url": "[URL_GERENCIAMENTO_EMAILS]",
+    "category": "Outros Links"
+  }
+]

@@ -1,0 +1,94 @@
+[
+{
+    "title": "Encerrar Validação de Recebimento",
+    "content": "Olá!\n Somos da TI e informamos que seu equipamento [ID_EQUIPAMENTO] no chamado: [NUM_CHAMADO], está em processo de entrega através da NF: [NUM_NF] e sairá[DATA]. O equipamento foi enviado por:\n(  ) Correios\n( x ) Malotes\n(  ) Transportadora\n                        \n Desta forma, informamos que assim que chegar e for necessário envio de equipe no local para devida instalação ou configuração abrir chamado no [SISTEMA_CHAMADOS] em TI > Equipamentos > Instalação.\n                        \n Prazo de acordo com meio de envio:\n                        \n* Correios de 2 a 3 dias úteis\n* Transportadora  de 2 a 3 úteis\n* Malotes de 5 à 10 dias úteis\n                        \n *Lembrete:*\n                        \n                        \n Caso tenha algum equipamento de TI que precisa realizar a devolução e precisa de NF de devolução abrir chamado no [SISTEMA_CHAMADOS] em TI > Equipamentos > NF Devolução\n                        \n Desejamos um excelente dia de trabalho!\n                        \n Atenciosamente;\n Suporte Filiais"
+  },
+  {
+    "title": "DVR",
+    "content": "Contato: \nForma de contato: (  ) RAMAL (  ) CELULAR (  ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Adição de câmeras – Especificar a quantidade total de câmeras na loja:\n(  ) Roubo/furto\n(  ) Sem HD\n(  ) Fonte chaveada – Quando após a conexão no DVR, não há imagem, as telas estão pretas estão no visualizador\n\nFluxo exclusivo para FIELD (OBRAS):\n(  ) Sem conexão com a rede\n(  ) Verificação fiação elétrica\n\nMODELO DVR: \n(  ) [MARCA_DVR] VD ......\n(  ) [MARCA_DVR] MultiHD\n(  )[MARCA_DVR] HDCVI\n\nN. Canais:\n(  ) 4 (  ) 8 (  )16 (  ) 32"
+  },
+  {
+    "title": "TROCA CELULAR",
+    "content": "N° telefone: \nModelo: \nMotivo da troca: \n(  ) sem [APP_MENSAGENS]\n(  ) sem agenda corporativa configurada\n(  ) bateria \n(  ) carregador\n(  ) quebrado\n(  ) tela trincada\n(  ) não liga\n(  ) desliga sozinho\n(  ) câmera não funciona\n(  ) defeito no alto falante\n(  ) defeito em entradas\n            \nOBS: loja orientada a manter o chip junto a filial e só encaminhar o equipamento celular antigo após o recebimento do novo"
+  },
+  {
+    "title": "CABO",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\n( ) IMPRESSORA MULTIFUNCIONAL\n( ) IMPRESSORA FISCAL Especificar: ( )[MARCA_IMPRESSORA_1] ( ) [MARCA_IMPRESSORA_2] ( )[MARCA_IMPRESSORA_3]\n( ) TERMINAL DE CONSULTA PREÇO\n(  ) COMPUTADOR – Especificar: ( ) PDV ( ) CAIXA ( ) RETAGUARDA ( )AUXILIAR DE RETAGUARDA\n(  ) RELÓGIO PONTO\n(  ) CAMERA\n(  ) DVR\n(  ) GAVETA DE CAIXA\n(  ) PINPAD\n(  ) TELEFONE RAMAL \n\nQual o cabo: \n\nFluxo exclusivo para FIELD (OBRAS):\n\n( ) REDE\n\nFluxo exclusivo para HARDWARE:\n(  ) VGA\n(  ) DISPLAY PORT\n(  ) HDMI\n(  ) AC/FORÇA PARA MONITOR – Descrever qual a marca do monitor: \n(  ) FONTE PARA COMPUTADOR -Descrever marca e modelo do computador:\n(  ) USB-B exclusivo para IMPRESSORA[MARCA_IMPRESSORA_2]"
+  },
+  {
+    "title": "CAMERA",
+    "content": "Contato: \nForma de contato: (  ) RAMAL (  ) CELULAR (  ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Tela preta na visualização no DVR\n(  ) Baixa qualidade na visualização no DVR\n(  ) Adição de câmeras\n(  ) Roubo/furto\n(  ) Fonte das câmeras\n\nFluxo exclusivo para FIELD (OBRAS):\n(  ) Reposicionamento das câmeras \n(  ) Instalação de câmeras\n(  ) Verificação fiação elétrica\n(  ) Instalação de DVR\n(  ) Verificação do DVR\n\nMODELO DVR: \n(  ) [MARCA_DVR] VD ......\n(  ) [MARCA_DVR] MultiHD\n(  ) [MARCA_DVR] HDCVI\n\nN. Canais:\n( ) 4 ( ) 8 ( )16 ( ) 32"
+  },
+  {
+    "title": "GAVETA DE CAIXA",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não abre – Validado e o cabo da gaveta está conectado corretamente na impressora fiscal.\n(  ) Não fecha\n(  ) Roubo/furto\n(  ) Porta cédula danificado ou não tem\n(  ) Danificada\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação da nova gaveta de caixa"
+  },
+  {
+    "title": "IMPRESSORA FISCAL",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Não imprime\n(  ) Sem comunicação com PDV\n(  ) Faltando nota fiscal ou não identifica a impressora fiscal\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação da nova impressora fiscal"
+  },
+  {
+    "title": "KIT DE CAIXA DE SOM",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Sem áudio\n(  ) Queimado – verificar o display\n(  ) Fios danificados\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo kit de caixa de som"
+  },
+  {
+    "title": "LEITOR DE CÓDIGO DE BARRAS",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Não lê o código de barras\n(  ) Queimado\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo leitor de código de barras"
+  },
+  {
+    "title": "MONITOR",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Tela trincada\n(  ) Imagem borrada\n(  ) Cor queimada – Ajustar o display da tela\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo monitor"
+  },
+  {
+    "title": "MOUSE",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não funciona\n(  ) Sensor não funciona\n(  ) Botão quebrado\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo mouse"
+  },
+  {
+    "title": "MOUSEPAD",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Danificado\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo mousepad"
+  },
+  {
+    "title": "PINPAD",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Não funciona a leitura do cartão\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo pinpad"
+  },
+  {
+    "title": "RELOGIO DE PONTO",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Impressão não funciona\n(  ) Não reconhece o cartão\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo relógio de ponto"
+  },
+  {
+    "title": "RÉGUA DE TOMADAS",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Danificado\n(  ) Queimado"
+  },
+  {
+    "title": "TELEFONE",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Não tem sinal\n(  ) Queimado\n(  ) Danificado\n(  ) Bateria\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo telefone"
+  },
+  {
+    "title": "COMPUTADOR",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Não inicia o sistema operacional\n(  ) Tela preta\n(  ) Problema no HD\n(  ) Problema na memória RAM\n(  ) Adição de equipamento\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo computador"
+  },
+  {
+    "title": "SWITCH",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Não está transmitindo dados\n(  ) Danificado\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo switch"
+  },
+  {
+    "title": "TECLADO",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \nQuantidade para envio: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não funciona\n(  ) Teclas não respondem\n(  ) Danificado\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Instalação do novo teclado"
+  },
+  {
+    "title": "TEF PÓS",
+    "content": "Contato: \n\n- Forma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO\n    \n    Descrição: \n    \n    Quantidade para envio: \n    \n- ( ) [MOD_MAQUINA_1]\n- ( ) [MOD_MAQUINA_2]\n- ( ) [MOD_MAQUINA_3]\n- ( ) TEF PÓS MOVEL\n\nFluxo exclusivo para HARDWARE:\n\n- ( ) Não liga\n- ( ) Roubo/furto\n- ( ) Não configurado Tela da [OPERADORA_CARTAO]\n- ( ) Danificado/quebrado/arranhado\n- ( ) Fio desencapado"
+  },
+  {
+    "title": "Access Point (AP)",
+    "content": "Contato: \nForma de contato: ( ) RAMAL ( ) CELULAR ( ) FIXO \nDescrição: \n\nFluxo exclusivo para HARDWARE:\n(  ) Não liga\n(  ) Não está transmitindo dados\n(  ) Danificado\n\nFluxo exclusivo para FIELD (OBRAS):\nDescrição:\n( ) Verificação do AP"
+  },
+  {
+    "title": "Chamado Imagens DVR",
+    "content": "Bom dia;\n \nImagens solicitadas salvas no computador retaguarda da filial ([IP_LOCAL])\n \nCaminho da pasta:[CAMINHO_DIRETORIO_LOCAL]\n\n\\\\[IP_SERVIDOR_REDE]\\[CAMINHO_DIRETORIO_REDE]"
+  },
+  {
+    "title": "Troca de Retaguarda - uso de Disco em C: > 90%",
+    "content": "Contato: \n\nDescrição: \n\nProvidenciar 1 computador\n\n(X )[MARCA_PC] WIN 10\n\nSistema operacional\n\n(X) WIN 10\n\nModelo do Computador na loja \n\n(   ) CPU Torre   ( X ) CPU [MARCA_PC]    (  ) [MARCA_PC_2]\n\nMONITOR \n\n( X )  VGA - (   ) DISPLAYPORT\n\nMotivo da substituição: \n\n(  ) Lentidão, travamento\n\n(  ) Baixa performance  - 2GB RAM\n\n( X ) Pouco espaço em disco mesmo após limpeza"
+  }
+]

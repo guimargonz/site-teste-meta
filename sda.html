@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamados de Ligação</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="server.html">Server</a></li>
+                <li><a href="ramais.html">Ramais</a></li>
+                <li><a href="scripts-chamados.html">Chamados</a></li>
+                <li><a href="sda.html">Ligações</a></li>
+                <li><a href="instrucoes.html">Instruções</a></li>
+                <li><a href="site_bookmarks.html">Bookmarks</a></li>
+                <li><a href="senhas.html">Senhas</a></li> <!-- Link para a página de senhas -->
+            </ul>
+        </nav>
+        <input type="text" id="search" placeholder="Buscar script..." onkeyup="searchScripts()">
+    </header>
+    <h1>Lista de Scripts</h1>
+
+    <section class="about-site">
+        <div class="add-sda-section">
+            <button id="showAddFormBtn" class="btn btn-primary">Adicionar Novo Script</button>
+            <div id="addFormContainer" style="display: none;">
+                <h2>Adicionar Novo Script</h2>
+                <form id="addScriptForm">
+                    <input type="text" id="title" placeholder="Nome do Script" required>
+                    <input type="text" id="statusS" placeholder="Status S (ex: Backup não realizado)" required>
+                    <input type="text" id="statusD" placeholder="Status D (ex: Realizar Backup)" required>
+                    <input type="text" id="statusA" placeholder="Status A (ex: Backup concluído)" required>
+                    <div class="form-buttons">
+                        <button class="btn btn-primary" type="submit">Adicionar</button>
+                        <button type="button" id="cancelAddBtn" class="btn">Cancelar</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div id="scripts-container"></div>
+
+    <footer>
+        <p>&copy; 2024 Guilherme Gonzaga - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./src/js/scripts.js"></script>
+    <script src="./src/js/autenticacao.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+[
+{
+    "title": "PASTA TI / ACESSAR PASTA GERAL",
+    "info": "Acessar no Windows: Abrir Executar\nDigitar: \\\\[IP_SERVIDOR_ARQUIVOS]\nAo acessar colocar [DOMINIO_REDE]\\[USUARIO]\n\nAcessar no Linux: CTRL + L\nDigitar: smb://[IP_SERVIDOR_ARQUIVOS]\nAo acessar colocar [DOMINIO_REDE]\\[USUARIO]\n\nAcessar no Ubuntu: Abir pasta de Arquivos / clicar em Outros Locais\nna parte de baixo da tela aparece a opção Conectar a servidor.\nDigitar: smb://[IP_SERVIDOR_ARQUIVOS]\nAo acessar colocar [DOMINIO_REDE]\\[USUARIO]"
+  },
+  {
+    "title": "SENHA WIFI INTERNA",
+    "info": "Rede: [SSID_REDE_WIFI]\nSenha: [SENHA_REDE_WIFI]"
+  },
+  {
+    "title": "CONVENIO ESPECIFICO",
+    "info": "Acessar o SAP / Convenio - Menu Sistema / Cadastro Vinculo Cliente x Convenio / Pesquisar Convenio [ID_CONVENIO] ([NOME_CLIENTE])\nClicar em FD32 / Selecionar Status / Dar Enter / Desbloquear\nPedir para finalizar no 5 / Tirar print dos itens vendidos e do cupom e encaminhar a quem solicitou."
+  },
+  {
+    "title": "DEVOLUÇÃO PRODUTOS",
+    "info": "(devolução quem decide é o gestor da loja se vai ser feita)\nERRO VERMELHO EM DEVOLUÇÃO - Aguardar virada de sistema (meia noite) e refazer devolução;\nse não passou de 30 dias loja mesmo pode fazer devolução\nmais de 30 dias sem controlado = CAIXAS\nmais de 30 dias com controlado = SUPORTE FARMACEUTICO (Ramal[RAMAL_SUPORTE])\nSuporte Noturno SUPORTE FARMACEUTICO[NOME_RESPONSAVEL] [TELEFONE_CONTATO]\nDevolução em que o cliente quer trocar o produto = AUDITORIA"
+  },
+  {
+    "title": "Problema com estação (Linux e UBUNTU)",
+    "info": "Sobre executável [NOME_SCRIPT_MIGRATE], segue passo à passo de como fazer:\n- Copiar o arquivo da pasta [PASTA_REDE] para a área de trabalho.\n- Dar as permissões para o arquivo.\n- Abrir o terminal e realizar login com su -l:\n                            su -l \n                            senha [SENHA_ROOT]\n                            \n- executar o seguinte comando: Linux CentOS\n                            chmod +rwx /home/[USUARIO]/Área\\ de\\ trabalho/[NOME_SCRIPT_MIGRATE]\n\n                            /home/[USUARIO]/Área\\ de\\ trabalho/./[NOME_SCRIPT_MIGRATE]\nLinux Ubuntu\n                            chmod +rwx /home/[USUARIO]/Área\\ de\\ trabalho/[NOME_SCRIPT_MIGRATE]\n\n                            /home/[USUARIO]/\"Área de Trabalho\"/./[NOME_SCRIPT_MIGRATE]\nLogo depois reiniciar o computador"
+  },
+  {
+    "title": "PASTA DE ACESSO TI LINUX",
+    "info": "CTRL + L\nsmb://[IP_SERVIDOR_ARQUIVOS]/[PASTA_COMPARTILHADA]"
+  },
+  {
+    "title": "FAIXAS DE IP DOS EQUIPAMENTOS DA LOJA",
+    "info": "RAMAL de [FAIXA_IP_RAMAL]\nPDV de[FAIXA_IP_PDV]\nCAIXA de [FAIXA_IP_CAIXA]\nRETAGUARDA de [FAIXA_IP_RET]\nAUXILIAR DE RETAGUARDA de[FAIXA_IP_AUX]\nDVR de [FAIXA_IP_DVR]\nPONTO[FAIXA_IP_PONTO]\nIMPRESSORA [FAIXA_IP_IMP]\nIMPRESSORAS [MARCA_IMPRESSORA] [FAIXA_IP_IMP_MARCA]"
+  },
+  {
+    "title": "CONFIGURAR IMPRESSORA WINDOWS",
+    "info": "Acessar pasta [PASTA_REDE]\n\nAbrir pasta[CAMINHO_DRIVER_IMPRESSORA]\n\nExecutar instalação do driver: [NOME_ARQUIVO_DRIVER]\nQuando pedir o Tipo de Conexão, selecionar \"conexão de rede\" e avançar.\nna próxima página selecione a opção \"Não, a impressora já está conectada à minha rede\".\nAvançar e finalizar a instalação normalmente."
+  },
+  {
+    "title": "CONFIGURAR IMPRESSORA MULTIFUNCIONAL LINUX",
+    "info": "Acessar menu / Sistema / Administração / Configurar Impressora\nLINK: Baixar executável com Arquivos PPD\n(Em caso de erro, acessar link abaixo)\n[URL_DOWNLOAD_IMPRESSORAS]"
+  },
+  {
+    "title": "INSTALAR APLICATIVO VIA TERMINAL LINUX",
+    "info": "Colocar arquivo na pasta junto com estação\nAcessar terminal\nentrar com root\nuser: su\n\n                        pass:[SENHA_ROOT]\n\n                        chmod +rwx APLICATIVOQUEDESEJAINSTALAR\n\n                        bash APLICATIVOQUEDESEJAINSTALAR"
+  },
+  {
+    "title": "Atualizar firefox versão [VERSAO_BROWSER] / LINUX",
+    "info": "- Entrar no servidor da loja = tecla |CTRL| + | L |\n- Caminho = smb://[NOME_SERVIDOR_DADOS]\n- OU = smb://vnc da filial com final [FINAL_IP_VNC]\n- Acessar a pasta [NOME_PASTA]\n- Verificar a existencia da pasta [PASTA_DEPLOY] - Se não estiver na pasta buscar na pasta [PASTA_REDE] e copiar.\n- Copiar a [PASTA_DEPLOY] para Downloads\n- Acessar a mesma na pasta Downloads e dar permissão ao script executavel ( [SCRIPT_INSTALL] ) permissão de escrita e leitura\n- abrir o terminal como root ( comando su )\n- Colocar a senha root\n                            - cd\n                            - cd ..\n                            - cd /home/[USUARIO]/Downloads/[PASTA_DEPLOY]\n                            - ./[SCRIPT_INSTALL] "
+  },
+  {
+    "title": "Configurar IP da [MARCA_IMPRESSORA]",
+    "info": "- Acessar a pasta da [PASTA_REDE]\n- Caminho = \\\\[IP_SERVIDOR_ARQUIVOS]\\[CAMINHO_PASTA_UTILITY]\n- Copiar para o pc e instalar o programa\n- Executar ( [PROGRAMA_CONFIG_IMP] )\n- Atualizar para puxar os IP's das impressoras\n- Dar dois cliques em cima da [MARCA_IMPRESSORA] que marca um |x|\n- Ir na opção > basico do > TCP/IP e ajustar IP correto e salvar\n\n-O novo modelo de impressora apresenta a necessidade de inserir uma senha\n-A senha em si é o próprio número de série da impressora localizado na parte inferior do flanco direito.\n-O procedimento se resume em inserir a senha, sendo possível com um leitor de código de barras, e teclar Enter."
+  },
+  {
+    "title": "[SISTEMA_PDV] Não Encontra Servidor no Linux",
+    "info": "Pingar[URL_SISTEMA_PDV]\n\nCaso Off acessar terminal como su:\n                            su\n                            senha[SENHA_ROOT]\n\n                            vim /etc/hosts \n\n                            insert\n\n                            127.0.0.1       localhost\n                            [IP_SERVIDOR_LOCAL][URL_SISTEMA_PDV]\n\n                            pressionar esc\n                            \n                            :x  ou :q ou :wq ou :wq!"
+  },
+  {
+    "title": "Procedimento de Atendimento para Impressoras Multifuncionais ([FORNECEDOR_IMPRESSAO])",
+    "info": "Em caso de problemas com as impressoras multifuncionais, siga os passos abaixo:\n\n1 - Abertura de Chamado: Ao identificar qualquer problema com a impressora, o primeiro passo é abrir um chamado na plataforma[SISTEMA_CHAMADOS].\nIsso garantirá que o incidente seja registrado e acompanhado adequadamente\n\nOnde é aberto o chamado no [SISTEMA_CHAMADOS]?\n\nTI > Equipamento e Periférico > Troca de Equip > Impressora Multifuncional\n\n2 - Contato com o Técnico Residente: Caso o problema for URGENTE, se a impressora não estiver FUNCIONANDO, acione o time da [FORNECEDOR_IMPRESSAO] através do WhatsApp do técnico residente.\n\nEssa comunicação direta ajuda a agilizar a resolução do problema."
+  },
+  {
+    "title": "BOLETO VENCIDO EM FINAL DE SEMANA",
+    "info": "tirar print para comprovar\nencaminhar print via email para: [EMAIL_SETOR_FINANCEIRO]\ndar duplo click na data/colocar senha\nalterar para data atual do dia e salvar"
+  },
+  {
+    "title": "CNPJ PARA PIX INSTITUICAO",
+    "info": "CNPJ: [CNPJ_EMPRESA_FORMATADO]"
+  },
+  {
+    "title": "Chaves NF-e de cada estado (Configuração de Filiais)",
+    "info": "A informação do CSC é única por estado, segue abaixo a informação para cada um dos estados onde temos filiais.\n \n[UF_1] =[CHAVE_CSC_UF_1]\n \n[UF_2] = [CHAVE_CSC_UF_2]\n \n[UF_3] = [CHAVE_CSC_UF_3]\n "
+  },
+  {
+    "title": "Configurar Loja Nova",
+    "info": "Gerar carga no SAP: [URL_DOCUMENTO_SHAREPOINT]\n\nCriar loja no [SISTEMA_FISCAL]:[URL_WIKI_INTERNA_FISCAL]\n\nConfigurar parâmetros da loja nova:\n\nestoque negativo = S\nchave = pegar no [SISTEMA_FISCAL]\ntoken = de acordo com o estado:\n\n[UF_1] = [CHAVE_CSC_UF_1]\n \n[UF_2] = [CHAVE_CSC_UF_2]\n \n[UF_3] =[CHAVE_CSC_UF_3]\n\nIP PC Teste: [IP_MAQUINA_TESTE]\nIP impressora [MARCA_IMPRESSORA] TESTES:[IP_IMPRESSORA_TESTE]\n\nRealizar a venda no Balcão e puxar no Caixa\n\nCPF Montagem CPF - [CPF_TESTE]\n \nProduto TRN ([COD_PRODUTO]) CPF Montagem em seguida\n \n[SISTEMA_PBM] [COD_PROGRAMA] - Programa[NOME_PROGRAMA_TESTE]\n\nAbrir Chamado no [SISTEMA_CHAMADOS]: Requisição => Sistemas => Configuração de Nova Filial\n\nScript para o Chamado:\n\nBom dia!\n \n[COD_FILIAL] - [NOME_FILIAL_TESTE]\nRealizada a devida parametrização e vendas testes\nEncerrado o turno de caixa, liberado usuário[USUARIO_MONTAGEM]\n \nScript para enviar na resposta do Email e no Grupo Novas Filiais no Whatsapp:\n\nBom dia!\n \n[COD_FILIAL_2] - [NOME_FILIAL_TESTE_2]\nRealizada a devida parametrização e vendas testes\nChamado :[NUM_CHAMADO_TESTE] consta no anexo das vendas realizadas\nEncerrado o turno de caixa, liberado usuário[USUARIO_MONTAGEM]"
+  },
+  {
+    "title": "Impressoras CD - CUPS",
+    "info": "Acessar pelo navegador: https://[IP_SERVIDOR_CUPS]:631/printers/\n\ntemos acessos para parar todos os trabalhos, ativar e desativar as impressoras e mais."
+  },
+  {
+    "title": "CNPJ para Abertira de Chamados para operadoras de internet",
+    "info": "ABERTURA DE CHAMADO PARA PROVEDOR DE INTERNET [PROVEDOR_1], [PROVEDOR_2] E [PROVEDOR_3]\n[CNPJ_EMPRESA_FORMATADO_2]\n[PROVEDOR_1] TEM CIRCUITO QUE SE ENCONTRA NA PLANILHA "
+  },
+  {
+    "title": "Mensagens de normalização, incidente e intermitencia para grupos",
+    "info": "🔴 INCIDENTE 🔴 \n \nBoa tarde. Estamos com indisponibilidade nos seguintes serviços:\n[Sistema/Serviço 1] \n[Sistema/Serviço 2] \n \nImpacto: As filiais estão impossibilitadas de operar [descrever impacto principal]. \n \nO time responsável já está atuando na tratativa. \nAssim que houver atualização, comunicaremos por aqui. \n \n \n \n🟠 INTERMITÊNCIA 🟠 \nBoa tarde. Estamos com intermitência nos seguintes serviços: \n[Sistema/Serviço 1] \n[Sistema/Serviço 2] \n \nImpacto: As filiais podem enfrentar lentidão ou falhas no acesso/processamento, impactando a operação. \n \nO time responsável já está atuando na tratativa. \nAssim que houver atualização ou normalização, comunicaremos por aqui. \n \n \n \n🟢 NORMALIZAÇÃO 🟢 \n \nBoa tarde. Informamos que os serviços abaixo foram normalizados: \n[Sistema/Serviço 1] \n[Sistema/Serviço 2] \n \nSeguimos monitorando para garantir a estabilidade.\n \nAssim que os serviços forem normalizados, enviamos um novo comunicado aqui."
+  }
+]

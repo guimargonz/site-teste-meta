@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Scripts - Home</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="server.html">Server</a></li>
+                <li><a href="ramais.html">Ramais</a></li>
+                <li><a href="scripts-chamados.html">Chamados</a></li>
+                <li><a href="sda.html">Ligações</a></li>
+                <li><a href="instrucoes.html">Instruções</a></li>
+                <li><a href="site_bookmarks.html">Bookmarks</a></li>
+                <li><a href="senhas.html">Senhas</a></li> <!-- Link para a página de senhas -->
+            </ul>
+        </nav>
+        <input type="text" id="search" placeholder="Buscar script..." onkeyup="searchScripts()">
+    </header>
+    
+    <div class="container">
+        <h1>Bem-vindo ao Portal de Scripts para Chamados</h1>
+        
+        <p>Este portal oferece uma coleção organizada de scripts e procedimentos técnicos para suporte de TI. Utilize os links
+            abaixo para acessar as páginas e encontrar as informações necessárias para gerenciar e resolver os chamados de
+            forma eficiente.</p>
+        
+        <div class="buttons-container">
+            <a href="server.html" class="btn btn-primary">Serviços no Servidor</a>
+            <a href="ramais.html" class="btn btn-primary">Ramais</a>
+            <a href="chamados.html" class="btn btn-primary">Scripts para Chamados</a>
+        </div>
+        
+        <div class="buttons-container">
+            <a href="sda.html" class="btn btn-primary">Chamados Abertos por Ligação</a>
+            <a href="instrucoes.html" class="btn btn-primary">Instruções e Procedimentos</a>
+            <a href="site_bookmarks.html" class="btn btn-primary">Links Úteis (Bookmarks)</a>
+        </div>
+        
+        <section class="about-site">
+            <h2>Sobre o Site</h2>
+            <p>Este site foi desenvolvido para facilitar o acesso e a organização de scripts e procedimentos técnicos usados para o
+                suporte de TI. Através das páginas disponíveis, você pode encontrar instruções detalhadas para diversas situações,
+                incluindo troca de equipamentos, manutenção e encerramento de chamados.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Guilherme Gonzaga - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./src/js/scripts.js"></script>
+    <script src="./src/js/autenticacao.js"></script>
+</body>
+</html>

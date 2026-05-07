@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Scripts - Bookmarks</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="./src/styles/bookmarks.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="server.html">Server</a></li>
+                <li><a href="ramais.html">Ramais</a></li>
+                <li><a href="scripts-chamados.html">Chamados</a></li>
+                <li><a href="sda.html">Ligações</a></li>
+                <li><a href="instrucoes.html">Instruções</a></li>
+                <li><a href="site_bookmarks.html">Bookmarks</a></li>
+                <li><a href="senhas.html">Senhas</a></li> <!-- Link para a página de senhas -->
+            </ul>
+        </nav>
+        <input type="text" id="search" class="busca" placeholder="Buscar bookmark..." onkeyup="searchBookmarks()">
+    </header>
+    
+    <div class="container">
+        <h1>Bookmarks</h1>
+        
+        <section class="about-site">
+            <div class="add-bookmark-section">
+                <button id="showAddFormBtn" class="btn btn-primary">Adicionar Novo Bookmark</button>
+                <div id="addFormContainer" style="display: none;">
+                    <h2>Adicionar Novo Bookmark</h2>
+                    <form id="addScriptForm">
+                        <input type="text" id="title" placeholder="Título" required>
+                        <input type="text" id="url" placeholder="URL" required>
+                        <select id="category" required>
+                            <!-- As opções serão preenchidas dinamicamente -->
+                        </select>
+                        <div id="newCategoryContainer" style="display: none;">
+                            <input type="text" id="newCategory" placeholder="Digite a nova categoria">
+                        </div>
+                        <div class="form-buttons">
+                            <button type="submit" class="btn btn-primary">Adicionar</button>
+                            <button type="button" id="cancelAddBtn" class="btn">Cancelar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <div id="bookmarks-container">
+            <!-- Os bookmarks serão carregados aqui dinamicamente -->
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Guilherme Gonzaga - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="./src/js/bookmarks.js"></script>
+    <script src="./src/js/autenticacao.js"></script>
+</body>
+</html>
